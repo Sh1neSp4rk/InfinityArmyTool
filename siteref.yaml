@@ -1,0 +1,332 @@
+SiteURLs:
+  Infinity:
+    https://infinitytheuniverse.com/army/infinity
+  InfinityCodeOne:
+    https://infinitytheuniverse.com/army/codeone
+
+MainInterface:
+  HeadboardButtons:
+    - Login Button: //*[@id="icon_its"]
+    - Charts Button: //*[@id="icon_lista_aretesM"]
+Contents:
+  MartialArts:
+    - Row1:
+        Level: 1
+        AttackMOD: 0
+        OpponentMOD: -3
+        Dam: +1
+        B: 0
+    - Row2:
+        Level: 2
+        AttackMOD: +3
+        OpponentMOD: -3
+        Dam: +1
+        B: 0
+    - Row3:
+        Level: 3
+        AttackMOD: +3
+        OpponentMOD: -3
+        Dam: +2
+        B: 0
+    - Row4:
+        Level: 4
+        AttackMOD: +3
+        OpponentMOD: -3
+        Dam: +3
+        B: 0
+    - Row5:
+        Level: 5
+        AttackMOD: +3
+        OpponentMOD: -3
+        Dam: +3
+        B: +1
+  BootyChart:
+    - Row1:
+        Roll: "1-2"
+        Result: "+1 ARM"
+    - Row2:
+        Roll: "3-4"
+        Result: "Light Flamethrower"
+    - Row3:
+        Roll: "5-6"
+        Result: "Grenades"
+    - Row4:
+        Roll: "7-8"
+        Result: "DA CC Weapon"
+    - Row5:
+        Roll: 9
+        Result: "Multispectral Visor L1"
+    - Row6:
+        Roll: 10
+        Result: "EXP CC Weapon"
+    - Row7:
+        Roll: 11
+        Result: "Adhesive Launcher (+1B)"
+    - Row8:
+        Roll: 12
+        Result: "TAG: Immunity (AP) / Other Troop Types: + 2 ARM"
+    - Row9:
+        Roll: 13
+        Result: "Panzerfaust"
+    - Row10:
+        Roll: 14
+        Result: "Monofilament CC Weapon"
+    - Row11:
+        Roll: 15
+        Result: "MOV 8-4"
+    - Row12:
+        Roll: 16
+        Result: "TAG: BS Attack (Shock) / Other Troop Types: MULTI Rifle"
+    - Row13:
+        Roll: 17
+        Result: "MULTI Sniper Rifle"
+    - Row14:
+        Roll: 18
+        Result: "TAG: Immunity (Total) / Other Troop Types: +4 ARM"
+    - Row15:
+        Roll: 19
+        Result: "Mimetism (-6)"
+    - Row16:
+        Roll: 20
+        Result: "TAG: BS Attack (+1B) / Other Troop Types: HMG"
+  MetaChemistryChart:
+    - Row1:
+        Roll: "1-3"
+        Result: "+3 PH"
+    - Row2:
+        Roll: "4-5"
+        Result: "Super-Jump"
+    - Row3:
+        Roll: "6-7"
+        Result: "Regeneration"
+    - Row4:
+        Roll: "8-10"
+        Result: "Climbing Plus"
+    - Row5:
+        Roll: "11-12"
+        Result: "MOV: 8-4"
+    - Row6:
+        Roll: "13-14"
+        Result: "+6 BTS"
+    - Row7:
+        Roll: 15
+        Result: "No Wound Incapacitation"
+    - Row8:
+        Roll: 16
+        Result: "+1 ARM + Bioimmunity"
+    - Row9:
+        Roll: 17
+        Result: "Dogged + Immunity (Total)"
+    - Row10:
+        Roll: 18
+        Result: "MOV: 6-4 + Super-Jump"
+    - Row11:
+        Roll: 19
+        Result: "MOV: 8-4 + Climbing Plus"
+    - Row12:
+        Roll: 20
+        Result: "+3 PH + Regeneration"
+
+    - Programs Chart Button: //*[@id="icon_lista_hackeo"]
+      Contents:
+    - Weapons Chart Button: //*[@id="icon_lista_armas"]
+      Contents:
+    - Load List Button: //*[@id="icon_carga_lista"]
+    - Import Army Code Button: //*[@id="icon_carga_codigo_army"]
+    - Main Menu Button: //*[@id="icon_main"]
+
+  FactionButtons:
+    Buttons for each faction: //*[@id="fac_{FactionID}"]
+
+  ArmyButtons:
+    Buttons for each army: //*[@id="sec_{SectorialID}"]
+
+Factions:
+  PanOceania:
+    id: 101
+    coid: 10101
+    imgurl: https://assets.corvusbelli.net/army/img/logo/factions/panoceania.svg
+    Sectorials:
+      - PanOceania:
+        id: 101
+        imgurl: https://assets.corvusbelli.net/army/img/logo/factions/panoceania.svg
+      - Military Orders:
+        id: 103
+        imgurl: https://assets.corvusbelli.net/army/img/logo/factions/military-orders.svg
+      - Svalarheima's Winter Force:
+        id: 106
+        imgurl: https://assets.corvusbelli.net/army/img/logo/factions/svalarheima-s-winter-force.svg
+      - Varuna Immediate Reaction Division:
+        id: 105
+        imgurl: https://assets.corvusbelli.net/army/img/logo/factions/varuna.svg
+      - Shock Army of Acontecimento:
+        id: 102
+        imgurl: https://assets.corvusbelli.net/army/img/logo/factions/shock-army-of-acontecimento.svg
+      - Neoterran Capitaline Army:
+        id: 104
+        imgurl: https://assets.corvusbelli.net/army/img/logo/factions/neoterran-capitaline-army.svg
+
+  YuJing:
+    id: 201
+    coid: 10201
+    imgurl: https://assets.corvusbelli.net/army/img/logo/factions/yu-jing.svg
+    Sectorials:
+      - Yu Jing:
+        id: 201
+        imgurl: https://assets.corvusbelli.net/army/img/logo/factions/yu-jing.svg
+      - Imperial Service:
+        id: 202
+        imgurl: https://assets.corvusbelli.net/army/img/logo/factions/imperial-service.svg
+      - Invincible Army:
+        id: 204
+        imgurl: https://assets.corvusbelli.net/army/img/logo/factions/invincible-army.svg
+      - White Banner:
+        id: 205
+        imgurl: https://assets.corvusbelli.net/army/img/logo/factions/white-banner.svg
+
+  Ariadna:
+    id: 301
+    coid: 10301
+    imgurl: https://assets.corvusbelli.net/army/img/logo/factions/ariadna.svg
+    Sectorials:
+      - Ariadna:
+        id: 301
+        imgurl: https://assets.corvusbelli.net/army/img/logo/factions/ariadna.svg
+      - USAriadna Ranger Force:
+        id: 304
+        imgurl: https://assets.corvusbelli.net/army/img/logo/factions/usariadna.svg
+      - Tartary Army Corps:
+        id: 305
+        imgurl: https://assets.corvusbelli.net/army/img/logo/factions/tartary.svg
+      - Kosmosflot:
+        id: 306
+        imgurl: https://assets.corvusbelli.net/army/img/logo/factions/kosmoflot.svg
+      - Caledonian Highlander Army:
+        id: 302
+        imgurl: https://assets.corvusbelli.net/army/img/logo/factions/caledonian-highlander-army.svg
+      - Force de Repose Rapide Merovingienne:
+        id: 303
+        imgurl: https://assets.corvusbelli.net/army/img/logo/factions/force-de-reponse-rapide-merovingienne.svg
+
+  Haqqislam:
+    id: 401
+    coid: 10401
+    imgurl: https://assets.corvusbelli.net/army/img/logo/factions/haqqislam.svg
+    Sectorials:
+      - Haqqislam:
+        id: 401
+        imgurl: https://assets.corvusbelli.net/army/img/logo/factions/haqqislam.svg
+      - Hassassin Bahram:
+        id: 402
+        imgurl: https://assets.corvusbelli.net/army/img/logo/factions/hassassin-bahram.svg
+      - Qapu Khalqi:
+        id: 403
+        imgurl: https://assets.corvusbelli.net/army/img/logo/factions/qapu-khalqi.svg
+      - Ramah Taskforce:
+        id: 404
+        imgurl: https://assets.corvusbelli.net/army/img/logo/factions/ramah-taskforce.svg
+
+  Nomads:
+    id: 501
+    coid: 10501
+    imgurl: https://assets.corvusbelli.net/army/img/logo/factions/nomads.svg
+    Sectorials:
+      - Nomads:
+        id: 501
+        imgurl: https://assets.corvusbelli.net/army/img/logo/factions/nomads.svg
+      - Jurisdictional Command of Bakunin:
+        id: 503
+        imgurl: https://assets.corvusbelli.net/army/img/logo/factions/bakunin.svg
+      - Jurisdictional Command of Corregidor:
+        id: 502
+        imgurl: https://assets.corvusbelli.net/army/img/logo/factions/corregidor.svg
+      - Jurisdictional Command of Tunguska:
+        id: 504
+        imgurl: https://assets.corvusbelli.net/army/img/logo/factions/tunguska.svg
+
+  CombinedArmy:
+    id: 601
+    coid: 10601
+    imgurl: https://assets.corvusbelli.net/army/img/logo/factions/combined-army.svg
+    Sectorials:
+      - Combined Army:
+        id: 601
+        imgurl: https://assets.corvusbelli.net/army/img/logo/factions/combined-army.svg
+      - Morat Aggression Force:
+        id: 602
+        imgurl: https://assets.corvusbelli.net/army/img/logo/factions/morat.svg
+      - Shasvastii Expeditionary Force:
+        id: 603
+        imgurl: https://assets.corvusbelli.net/army/img/logo/factions/shasvastii.svg
+      - Onyx Contact Force:
+        id: 604
+        imgurl: https://assets.corvusbelli.net/army/img/logo/factions/onyx.svg
+
+  Aleph:
+    id: 701
+    coid: 10701
+    imgurl: https://assets.corvusbelli.net/army/img/logo/factions/aleph.svg
+    Sectorials:
+      - Aleph:
+        id: 701
+        imgurl: https://assets.corvusbelli.net/army/img/logo/factions/aleph.svg
+      - Steel Phalanx:
+        id: 702
+        imgurl: https://assets.corvusbelli.net/army/img/logo/factions/steel-phalanx.svg
+      - Operations Subsection of the SSS:
+        id: 703
+        imgurl: https://assets.corvusbelli.net/army/img/logo/factions/operations.svg
+
+  Tohaa:
+    id: 801
+    imgurl: https://assets.corvusbelli.net/army/img/logo/factions/tohaa.svg
+    Sectorials:
+      - Tohaa:
+        id: 801
+        imgurl: https://assets.corvusbelli.net/army/img/logo/factions/tohaa.svg
+
+  NonAlignedArmies:
+    id: 901
+    imgurl: https://assets.corvusbelli.net/army/img/logo/factions/non-aligned-armies.svg
+    Sectorials:
+      - Druze Bayram Security:
+        id: 902
+        imgurl: https://assets.corvusbelli.net/army/img/logo/factions/druze.svg
+      - Japanese Secessionist Army:
+        id: 903
+        imgurl: https://assets.corvusbelli.net/army/img/logo/factions/japanese-secessionist-army.svg
+      - Ikari Company:
+        id: 904
+        imgurl: https://assets.corvusbelli.net/army/img/logo/factions/ikari.svg
+      - Starco. Free Company of the Star:
+        id: 905
+        imgurl: https://assets.corvusbelli.net/army/img/logo/factions/starco.svg
+      - Spiral Corps:
+        id: 906
+        imgurl: https://assets.corvusbelli.net/army/img/logo/factions/spiral-corps.svg
+      - Foreign Company:
+        id: 907
+        imgurl: https://assets.corvusbelli.net/army/img/logo/factions/foreign-company.svg
+      - Dahshat Company:
+        id: 908
+        imgurl: https://assets.corvusbelli.net/army/img/logo/factions/dahshat.svg
+      - White Company:
+        id: 909
+        imgurl: https://assets.corvusbelli.net/army/img/logo/factions/white-company.svg
+
+  O12:
+    id: 1001
+    coid: 111001
+    imgurl: https://assets.corvusbelli.net/army/img/logo/factions/o-12.svg
+    Sectorials:
+      - O-12: 
+        id: 1001
+        imgurl: https://assets.corvusbelli.net/army/img/logo/factions/o-12.svg
+      - Starmada, Bureau Aegis Naval Police Department:
+        id: 1002
+        imgurl: https://assets.corvusbelli.net/army/img/logo/factions/starmada.svg
+      - Torchlight Brigade:
+        id: 1003
+        imgurl: https://assets.corvusbelli.net/army/img/logo/factions/torchlight-brigade.svg
+
+Units:
